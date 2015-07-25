@@ -9,7 +9,7 @@ Config Component is a configuration with environment based support for Laravel 5
 1. [Version Compatibility](#compatibility)
 2. [Installation](#installation)
 3. [Configuration](#configuration)
-4. [Change Log]({doc-url}/components/kernel/changes#v3-0)
+4. [Change Log]({doc-url}/components/kernel/changes#v3-1)
 
 <a name="compatibility"></a>
 ## Version Compatibility
@@ -17,6 +17,7 @@ Config Component is a configuration with environment based support for Laravel 5
 Laravel    | Config
 :----------|:----------
  5.0.x     | 3.0.x
+ 5.1.x     | 3.1.x
 
 <a name="installation"></a>
 ## Installation
@@ -47,8 +48,8 @@ To swap Laravel 5 default configuration, all you need to do is add the following
 
 ```php
 $app->singleton(
-    'Illuminate\Foundation\Bootstrap\LoadConfiguration',
-    'Orchestra\Config\Bootstrap\LoadConfiguration'
+    Illuminate\Foundation\Bootstrap\LoadConfiguration::class,
+    Orchestra\Config\Bootstrap\LoadConfiguration::class
 );
 ```
 

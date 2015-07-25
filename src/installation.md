@@ -9,7 +9,6 @@ title: Installation
   - [Download](#download)
   - [Preparing Setup](#configuration)
   - [Setup](#setup)
-3. [Server Requirements](#server-requirement)
 4. [Pretty URLs](#pretty-urls)
 
 <a name="server-requirement"></a>
@@ -17,7 +16,7 @@ title: Installation
 
 Orchestra Plaftorm has a few system requirements:
 
-* PHP >= 5.4.0 (we highly recommend using PHP 5.6 for your projects).
+* PHP >= 5.5.9 (we highly recommend using PHP 5.6 for your projects).
 * PHP Extensions:
   - OpenSSL
   - Mbstring

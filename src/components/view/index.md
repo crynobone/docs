@@ -12,7 +12,7 @@ This would allow extension (or even packages) to have it's own set of view styli
 2. [Installation](#installation)
 3. [Configuration](#configuration)
 4. [Usage](#usage)
-5. [Change Log]({doc-url}/components/view/changes#v3-0)
+5. [Change Log]({doc-url}/components/view/changes#v3-1)
 
 <a name="compatibility"></a>
 ## Version Compatibility
@@ -23,6 +23,7 @@ This would allow extension (or even packages) to have it's own set of view styli
  4.1.x    | 2.1.x
  4.2.x    | 2.2.x
  5.0.x    | 3.0.x
+ 5.1.x    | 3.1.x
 
 ## Installation {#installation}
 
@@ -55,9 +56,9 @@ Next add the service provider in `config/app.php`.
 
     // ...
 
-    'Orchestra\View\DecoratorServiceProvider',
-    'Orchestra\View\ViewServiceProvider',
-    'Orchestra\Memory\MemoryServiceProvider',
+    Orchestra\View\DecoratorServiceProvider::class,
+    Orchestra\View\ViewServiceProvider::class,
+    Orchestra\Memory\MemoryServiceProvider::class,
 ],
 ```
 

@@ -9,7 +9,7 @@ Parser Component is a framework agnostic package that provide a simple way to pa
 1. [Version Compatibility](#compatibility)
 2. [Installation](#installation)
 3. [Configuration](#configuration)
-4. [Change Log]({doc-url}/components/parser/changes#v3-0)
+4. [Change Log]({doc-url}/components/parser/changes#v3-1)
 
 <a name="compatibility"></a>
 ## Version Compatibilty
@@ -19,6 +19,7 @@ Laravel    | Parser
  4.1.x     | 2.1.x
  4.2.x     | 2.2.x
  5.0.x     | 3.0.x
+ 5.1.x     | 3.1.x
 
 <a name="installation"></a>
 ## Installation

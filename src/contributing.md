@@ -7,8 +7,8 @@ title: Contributing To Orchestra Platform
 2. [Security Vulnerabilities](#security-vulnerabilities)
 3. [Feature Requests](#feature-requests)
 4. [Pull Requests](#pull-requests)
-   - [Bugfixes](#pr-for-bugfixes)
-   - [New Features](#pr-for-new-features)
+    - [Bugfixes](#pr-for-bugfixes)
+    - [New Features](#pr-for-new-features)
 5. [Template for Pull Request, Proposal, Request or Bugfixes](#templates)
 6. [Coding Guidelines](#coding-guidelines)
 
@@ -62,7 +62,6 @@ Please include the following template when opening an issue on GitHub:
     | Fixed tickets | [comma separated list of tickets fixed by the PR]
     | License       | MIT
     | Doc PR        | [The reference to the documentation PR if any]
-
 
 <a name="coding-guidelines"></a>
 ## Coding Guidelines
